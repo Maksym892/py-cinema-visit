@@ -18,7 +18,7 @@ def cinema_visit(
         customers_info.append(new_customer)
 
         CinemaBar.sell_product(
-            customer=new_customer.name,
+            customer=new_customer,
             product=new_customer.food
         )
 
